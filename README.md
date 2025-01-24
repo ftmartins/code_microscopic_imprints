@@ -1,5 +1,4 @@
-# learning_circuit
-Learning Linear Circuits
+# Code for 'Microscopic imprints of learned solutions in adaptive resistor networks'
 
 ## Setup
 
@@ -10,11 +9,12 @@ Learning Linear Circuits
      ```bash
      bash Miniforge3-MacOSX-arm64.sh
      ```
-
+   - Get data.
+   
 1. Clone a local copy of the repository:
 
 ```bash
-git clone git@github.com:maguzj/learning_circuit.git
+git clone git@github.com:ftmartins/code_microscopic_imprints.git
 ```
 
 2. Create the environment. Follow one of these two options depending on your computer.
@@ -56,4 +56,4 @@ git clone git@github.com:maguzj/learning_circuit.git
      (for more information see: https://gist.github.com/MarkDana/a9481b8134cf38a556cf23e1e815dafb)
 
 
-3. Several jupyter notebooks are provided for getting started.
+3. Jupyter notebooks are provided for getting started. One examplifying training resistive circuits and another with example plotting routines.
