@@ -1,4 +1,7 @@
 # Code for 'Microscopic imprints of learned solutions in adaptive resistor networks'
+**Marcelo Guzman, Felipe Martins**, Menachem Stern, and Andrea J. Liu
+
+arXiv reference: [arXiv:2412.19356](https://arxiv.org/abs/2412.19356)
 
 ## Notebooks
    - The notebook named 'networkTrainingExample_paper.ipynb' creates an adaptive resistor circuit - the corresponding network strucutre, conductances, task description, etc. - and examplifies the training of a circuit for a regression task where the voltages at the output nodes follow a particular, pre-specified linear relation on the inputs. The trained circuit is saved in three files: two json and one csv. The information about the network structure - nodes, edges - are saved in '*graph.json', while information along training and hyperparameters are saved in '*global.json.' Finally, the conductances recorded along trained are saved in the '*.csv' file.
@@ -59,5 +62,3 @@ git clone git@github.com:ftmartins/code_microscopic_imprints.git
      ```
 
      (for more information see: https://gist.github.com/MarkDana/a9481b8134cf38a556cf23e1e815dafb)
-
-arXiv reference: arXiv:2412.19356
