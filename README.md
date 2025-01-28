@@ -1,6 +1,8 @@
 # Code for 'Microscopic imprints of learned solutions in adaptive resistor networks'
 **Marcelo Guzman, Felipe Martins**, Menachem Stern, and Andrea J. Liu
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14680897.svg)](https://doi.org/10.5281/zenodo.14680897)
+
 arXiv reference: [arXiv:2412.19356](https://arxiv.org/abs/2412.19356)
 
 ## Notebooks
