@@ -11,7 +11,7 @@ import networkx as nx
 from scipy.integrate import solve_ivp
 from tqdm import tqdm
 from numba import jit
-from vapory import *
+# from vapory import *
 
 class Packing:
 	'''Class to model a contact network of bidisperse spheres.
