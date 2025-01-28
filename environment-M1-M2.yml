@@ -1,7 +1,19 @@
-name: cl
+name: microscopic_imprints_learning_circuit
 channels:
   - conda-forge
 dependencies:
   - python=3.9.18
   - cython=3.0.9
   - pybind11=2.11.1
+  - ipykernel
+  - scipy
+  - matplotlib
+  - networkx
+  - cmocean
+  - jax
+  - tqdm
+  - numba
+  - pip3
+  - pip:
+    - poisson_disc
+    - vapory

@@ -2,17 +2,19 @@ name: cl
 channels:
   - conda-forge
 dependencies:
-  - python=3.9
-  - cython
-  - pybind11
+  - python=3.9.18
+  - cython=3.0.9
+  - pybind11=2.11.1
   - numpy
+  - ipykernel
   - scipy
   - matplotlib
-  - tqdm
   - networkx
-  - numba
-  - jax
-  - jaxlib
   - cmocean
-  - poisson_disc
-  - vapory
+  - jax
+  - tqdm
+  - numba
+  - pip3
+  - pip:
+    - poisson_disc
+    - vapory
